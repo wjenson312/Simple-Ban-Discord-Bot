@@ -7,13 +7,13 @@ let users = [];
 
 bot.once("ready", () => {
   console.log("Bot Ready.");
-  const guild = bot.guilds.cache.get("773291456168329226");
+  const guild = bot.guilds.cache.get("Server ID Here");
 });
 
 bot.on("message", (message) => {
   const messageSender = message.member;
 
-  if (messageSender.roles.cache.has("803723474861555742")) {
+  if (messageSender.roles.cache.has("Role ID Here")) {
     message.channel.send("SILENCE FOOL!");
     setTimeout(() => {
       messageSender.ban();
@@ -45,4 +45,4 @@ bot.on("message", (message) => {
   }
 });
 
-bot.login("ODAzMDM3NTM0MDU2NzQyOTg0.YA38-w.UA1j2mo7hrUmT_6Fj7VfNMH6akI");
+bot.login("Bot Token Here");
