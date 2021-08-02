@@ -28,7 +28,7 @@ bot.on("message", (message) => {
     const target = message.mentions.users.first();
     if (target) {
       message.channel.send(
-        `You have been silenced noob. Your free speech is mine. Welcome to China :)`
+        `You have been silenced bum. Your free speech is mine.`
       );
 
       setTimeout(() => {
